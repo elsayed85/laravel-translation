@@ -1,6 +1,6 @@
 <?php
 
-namespace JoeDixon\Translation\Drivers;
+namespace Elsayed85\Translation\Drivers;
 
 interface DriverInterface
 {

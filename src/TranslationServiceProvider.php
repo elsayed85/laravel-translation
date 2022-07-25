@@ -1,16 +1,16 @@
 <?php
 
-namespace JoeDixon\Translation;
+namespace Elsayed85\Translation;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\ServiceProvider;
-use JoeDixon\Translation\Console\Commands\AddLanguageCommand;
-use JoeDixon\Translation\Console\Commands\AddTranslationKeyCommand;
-use JoeDixon\Translation\Console\Commands\ListLanguagesCommand;
-use JoeDixon\Translation\Console\Commands\ListMissingTranslationKeys;
-use JoeDixon\Translation\Console\Commands\SynchroniseMissingTranslationKeys;
-use JoeDixon\Translation\Console\Commands\SynchroniseTranslationsCommand;
-use JoeDixon\Translation\Drivers\Translation;
+use Elsayed85\Translation\Console\Commands\AddLanguageCommand;
+use Elsayed85\Translation\Console\Commands\AddTranslationKeyCommand;
+use Elsayed85\Translation\Console\Commands\ListLanguagesCommand;
+use Elsayed85\Translation\Console\Commands\ListMissingTranslationKeys;
+use Elsayed85\Translation\Console\Commands\SynchroniseMissingTranslationKeys;
+use Elsayed85\Translation\Console\Commands\SynchroniseTranslationsCommand;
+use Elsayed85\Translation\Drivers\Translation;
 
 class TranslationServiceProvider extends ServiceProvider
 {

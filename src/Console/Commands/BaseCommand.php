@@ -1,9 +1,9 @@
 <?php
 
-namespace JoeDixon\Translation\Console\Commands;
+namespace Elsayed85\Translation\Console\Commands;
 
 use Illuminate\Console\Command;
-use JoeDixon\Translation\Drivers\Translation;
+use Elsayed85\Translation\Drivers\Translation;
 
 class BaseCommand extends Command
 {

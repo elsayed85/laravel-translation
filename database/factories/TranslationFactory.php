@@ -1,8 +1,8 @@
 <?php
 
 use Faker\Generator;
-use JoeDixon\Translation\Language;
-use JoeDixon\Translation\Translation;
+use Elsayed85\Translation\Language;
+use Elsayed85\Translation\Translation;
 
 $factory->define(Translation::class, function (Generator $faker) {
     return [

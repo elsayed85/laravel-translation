@@ -1,6 +1,6 @@
 <?php
 
-namespace JoeDixon\Translation\Console\Commands;
+namespace Elsayed85\Translation\Console\Commands;
 
 class ListLanguagesCommand extends BaseCommand
 {

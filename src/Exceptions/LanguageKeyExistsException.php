@@ -1,6 +1,6 @@
 <?php
 
-namespace JoeDixon\Translation\Exceptions;
+namespace Elsayed85\Translation\Exceptions;
 
 class LanguageKeyExistsException extends \Exception
 {

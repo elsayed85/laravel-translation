@@ -1,9 +1,9 @@
 <?php
 
-namespace JoeDixon\Translation;
+namespace Elsayed85\Translation;
 
 use Illuminate\Translation\LoaderInterface;
-use JoeDixon\Translation\Drivers\Translation;
+use Elsayed85\Translation\Drivers\Translation;
 
 class InterfaceDatabaseLoader implements LoaderInterface
 {

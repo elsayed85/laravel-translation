@@ -1,9 +1,9 @@
 <?php
 
-namespace JoeDixon\Translation\Http\Requests;
+namespace Elsayed85\Translation\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use JoeDixon\Translation\Rules\LanguageNotExists;
+use Elsayed85\Translation\Rules\LanguageNotExists;
 
 class LanguageRequest extends FormRequest
 {

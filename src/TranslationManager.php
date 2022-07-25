@@ -1,11 +1,11 @@
 <?php
 
-namespace JoeDixon\Translation;
+namespace Elsayed85\Translation;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
-use JoeDixon\Translation\Drivers\Database;
-use JoeDixon\Translation\Drivers\File;
+use Elsayed85\Translation\Drivers\Database;
+use Elsayed85\Translation\Drivers\File;
 
 class TranslationManager
 {

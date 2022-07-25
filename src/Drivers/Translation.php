@@ -1,12 +1,12 @@
 <?php
 
-namespace JoeDixon\Translation\Drivers;
+namespace Elsayed85\Translation\Drivers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Str;
-use JoeDixon\Translation\Events\TranslationAdded;
+use Elsayed85\Translation\Events\TranslationAdded;
 
 abstract class Translation
 {

@@ -6,8 +6,8 @@ Translation management for your Laravel application.
 
 ![Laravel Translation UI](translation.png)
 
-![GitHub](https://img.shields.io/github/checks-status/joedixon/laravel-translation/master?style=for-the-badge)
-![GitHub](https://img.shields.io/github/license/joedixon/laravel-translation.svg?style=for-the-badge)
+![GitHub](https://img.shields.io/github/checks-status/Elsayed85/laravel-translation/master?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/Elsayed85/laravel-translation.svg?style=for-the-badge)
 
 </div>
 
@@ -47,11 +47,11 @@ Below are a full list of features:
 
 Install the package via Composer
 
-`composer require joedixon/laravel-translation`
+`composer require Elsayed85/laravel-translation`
 
 Publish configuration and assets
 
-`php artisan vendor:publish --provider="JoeDixon\Translation\TranslationServiceProvider"`
+`php artisan vendor:publish --provider="Elsayed85\Translation\TranslationServiceProvider"`
 
 The service provider is loaded automatically using [package discovery](https://laravel.com/docs/5.7/packages#package-discovery).
 
